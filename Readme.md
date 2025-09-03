@@ -15,13 +15,14 @@ This file is a reminder of how I connected everything in my Django project.
    
 
 
-4. auth_app/
-    -templates/
-      - auth/
-         -register.html    
-     -layouts/
-         -app.html          
-       -urls.py             
+1. auth_app/
+   1. templates/
+      1. auth/
+         1. register.html
+   2. layouts/
+      1. app.html
+   3. urls.py
+          
 
 
 5. Database Setup
@@ -31,6 +32,7 @@ This file is a reminder of how I connected everything in my Django project.
 
 
 7. Apply migrations
+8. ```bash
      python manage.py migrate
 
 

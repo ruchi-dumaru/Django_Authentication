@@ -7,7 +7,8 @@ This file is a reminder of how I connected everything in my Django project.
    pip install django
 
 2. Start new app
-   python manage.py startapp auth_app
+    ```bash
+     python manage.py startapp auth_app
 
 3. Add App to Project
    Go to settings.py inside the main project (auth_project) and add the app name..
@@ -17,18 +18,19 @@ This file is a reminder of how I connected everything in my Django project.
 4. auth_app/
     -templates/
       - auth/
-         -register.html     # registration page
+         -register.html    
      -layouts/
-         -app.html          # base layout
-       -urls.py             # app-level urls
+         -app.html          
+       -urls.py             
 
 
 5. Database Setup
    Make migration
+   ```bash
      python manage.py makemigrations
 
 
-6. Apply migrations
+7. Apply migrations
      python manage.py migrate
 
 
